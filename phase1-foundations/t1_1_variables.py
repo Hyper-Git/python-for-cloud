@@ -15,4 +15,5 @@ units_text = "14"
 print(units + 1) 
 print(units_text + "1")
 print(f"Job {job_id} for {customer}: {units} units, {worktop_metres}m of worktop")
-print(units_text + 1)
+# This line charashes on purpose : str + int raises a TypeError
+#print(units_text + 1)
