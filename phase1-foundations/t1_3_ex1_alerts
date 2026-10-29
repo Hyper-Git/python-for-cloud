@@ -1,0 +1,6 @@
+open_alerts = ["web-01 disk 91%", "db-01 cpu 95%", "web-02 http 500"]
+open_alerts.append("cache-01 memory 88%")
+
+print(f"Open alerts: {len(open_alerts)}")
+print(f"Oldest: {open_alerts[0]}")
+print(f"Latest: {open_alerts[-1]}")
